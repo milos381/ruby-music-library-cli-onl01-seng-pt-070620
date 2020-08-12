@@ -26,9 +26,9 @@ class MusicLibraryController
       list_genres
     elsif input == "list by artist"
       binding.pry
-      list_by_artist
+      list_songs_by_artist
     elsif input == "list by genre"
-      list_by_genre
+      list_songs_by_genre
     elsif input == "play song"
       play_song
     end
